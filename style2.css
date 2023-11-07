@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+* {
+    padding: 0%;
+    margin: 0%;
+   
+}
+section{
+    border: 1px solid rgba(255, 255, 255, 0.212);
+   
+    /* ele APENAS coloca borda nas seções */
+}
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+}
+#section1 {
+    display: flex;
+}
+/* #cabeca1 {
+    display: flex;
+    flex-direction: column;
+} */
+#corpo1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    margin-left: 20px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    height: 100px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    /* botoes do header */
+    /* titulo e imagem principal */
+}
+#titulo {
+    font-size: 2.9em;
+    color: white;
+    font-family: 'Belleza', sans-serif;
+
+}
+#reputation {
+    background-color: rgb(37, 36, 36);
+    color: white;
+}
+#primeirotitulo {
+    font-size: 40px;
+    margin-left: 90px;
+    font-family: 'Grenze Gotisch', serif;
+}
+#texto1 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    /* fim da primeira section */
+}
+#reputation2 {
+    background-color: rgb(66, 63, 64);
+    font-size: 25px;
+    color: white;
+    font-family: 'Grenze Gotisch', serif;
+}
+#segundotitulo {
+    font-size: 40px;
+    color: white;
+    font-family: 'Grenze Gotisch', serif;
+    margin-left: 90px;
+    /* aqui acaba a segunda section */
+}
+#section2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#cabeca2 {
+    display: flex;
+    flex-direction: column;
+}
+#corpo2 {
+    display: flex;
+    margin-left: 30px;
+}
+#musica {
+    background-color: #919191;
+    /* section que leva para a discografia */
+}
+#section3 {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+ol {
+    font-size: 14px;
+    margin-left: 20px;
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+}
+img {
+    margin: 30px;
+}
+#sectiontop {
+   height: 400px;
+   background-image: url(poster.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* Responsavel pela imagem após o header*/
+}
+
+#section4{
+    background-color: rgb(52, 47, 47);
+} 
+#reputation3{
+    background-color: #2a2828;
+    padding-bottom: 5%;
+}
+#quartotitulo{
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+    font-family: 'Grenze Gotisch', serif;
+    font-size: 40px;
+    text-align: center;
+} 
+#mae{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+#mae p{
+    max-width: 60%;
+}
+#snake{
+    width: 60px;
+}
